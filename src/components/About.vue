@@ -122,9 +122,6 @@ export default {
         },
     methods: { // all the actions our app can do
          submitForm: function () {     
-              
-                   console.log('submitting message...');
-            console.log(this.name)
             axios.post('http://lhmr0.000webhostapp.com/sendmail.php', {
               name: this.name, email: this.email, comments: this.comments
             }).then(function () {
@@ -132,7 +129,7 @@ export default {
             }, function () {
                 alert('e-mail no enviado');
             });
-    
+  
     },
     }
     
