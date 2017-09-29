@@ -71,7 +71,7 @@
                       </b-field>
                    <b-field label="Email: ">
                     <b-input
-                        type="text"
+                        type="email"
                         v-model="email"
                         placeholder="Ingrese su email"
                         required>
@@ -88,7 +88,6 @@
                 
             </section>
             <footer class="modal-card-foot">           
-                   <button type="submit" class="btn btn-primary">Send</button>
                 <button class="button is-primary">Enviar</button>
             </footer>
         </div>
@@ -127,9 +126,14 @@ export default {
                    console.log('submitting message...');
             console.log(this.name)
             axios.post('http://lhmr0.000webhostapp.com/sendmail.php', {
-    name: this.name, email: this.email, comments: this.comments
-  });
-        },
+              name: this.name, email: this.email, comments: this.comments
+            }).then(function () {
+                alert('email enviado!');
+            }, function () {
+                alert('e-mail no enviado');
+            });
+    
+    },
     }
     
          
