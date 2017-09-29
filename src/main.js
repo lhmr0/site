@@ -8,6 +8,7 @@ import  'buefy/lib/buefy.css'
 Vue.use(Buefy);
 Vue.use(VueRouter);
 const router = new VueRouter({	
+	mode: 'history',
 	routes,
 })
 
