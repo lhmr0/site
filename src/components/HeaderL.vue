@@ -5,7 +5,7 @@
         <div class="nav-left">
           <a class="nav-item">
              <router-link to="/" class="navbar-item" tag="a">
-                    <img src="http://lhmr.tech/content/images/2016/10/darth.png" alt="Logo">
+                    <img src="https://lhmr0.000webhostapp.com/images/darth.png" alt="Logo">
                     <strong>  luishmr0! </strong>
              </router-link>            
           </a>
