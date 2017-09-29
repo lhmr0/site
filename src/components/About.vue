@@ -126,7 +126,7 @@ export default {
               
                    console.log('submitting message...');
             console.log(this.name)
-            axios.post('http://lhmr0.000webhostapp.com/sendmail.php', {
+            axios.post('https://lhmr0.000webhostapp.com/sendmail.php', {
     name: this.name, email: this.email, comments: this.comments
   });
         },
