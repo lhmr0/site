@@ -142,7 +142,7 @@ export default {
 
 <style scoped>
  .hero {
-    background-image:url(https://cdn-images-1.medium.com/max/1200/1*qS_ruB1MNwtoPYIfAfJINg.jpeg);
+    background-image:url(https://i.imgur.com/vcEBsws.jpg);
     background-repeat:no-repeat;
     background-attachment:scroll;
     background-position:center center;

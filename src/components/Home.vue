@@ -54,7 +54,7 @@ export default {
 
 <style scoped>
   .hero {
-    background-image:url(https://i0.wp.com/media2.slashfilm.com/slashfilm/wp/wp-content/images/rogue-one-a-star-wars-story-international-trailer-2-darth-vader.jpg);
+    background-image:url(https://i.imgur.com/5jT9BIS.jpg);
     background-repeat:no-repeat;
     background-attachment:scroll;
     background-position:center center;
