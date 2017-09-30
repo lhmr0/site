@@ -20,7 +20,7 @@
                 <div @click="reload" class="navbar-end">
                     <router-link class="navbar-item " to="/" exact>Home</router-link>
                     <router-link class="navbar-item" to="/about" >About</router-link>
-                    <a class="navbar-item" href="http://luishmr0.github.io" target="_blank">
+                    <a class="navbar-item" href="http://b.hmr0.me" target="_blank">
                     Blog
                     </a>
                     <a class="navbar-item" href="http://github.com/luishmr0" target="_blank">
