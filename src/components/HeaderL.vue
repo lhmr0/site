@@ -5,7 +5,7 @@
         <div class="nav-left">
           <a class="nav-item">
              <router-link to="/" class="navbar-item" tag="a">
-                    <img src="https://hmr0.me/darth.png" alt="hmr0">
+                    <img src="https://luish.me/darth.png" alt="hmr0">
                     <strong>  luishmr0! </strong>
              </router-link>            
           </a>

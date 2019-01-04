@@ -2,7 +2,7 @@
     <section class="hero is-black is-fullheight">
   <div class="hero-body">
     <div class="container">
-       <img src="https://hmr0.me/darth.png" alt="hmr0" height="155" width="153">
+       <img src="https://luish.me/darth.png" alt="hmr0" height="155" width="153">
       <h1 class="title page-title">
         hmr0
       </h1>

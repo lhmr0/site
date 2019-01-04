@@ -6,7 +6,7 @@
         Acerca de mí
       </h1>
       <h2 class="subtitle">
-        Soy un estudiante peruano de Ing. de Software, fan del fútbol, del cine, la historia, la política y sobre todo la tecnología, android fanboy, he usado android desde 1.6.
+        Ing. de software, fan del fútbol, del cine, la historia, la política y sobre todo la tecnología, android fanboy, he usado android desde 1.6.
         <br>Puedes ver mi lista de películas favoritas <a href="http://www.imdb.com/list/ls071924674/" target="_blank"><b-icon
                 pack="fa"
                 icon="film"
@@ -50,49 +50,8 @@
                 size="is-large"
                 type="is-light">
             </b-icon></a>
-             <center> <button class="button is-dark is-medium"
-            @click="isModalActive = true">
-           Enviar e-mail
-        </button></center>
-        <b-modal :active.sync="isModalActive" :width="por">
-            <form action="" v-on:submit.prevent="submitForm" >
-              <div class="modal-card">
-                  <header class="modal-card-head">
-                      <p class="modal-card-title">Enviar e-mail</p>
-                  </header>
-                  <section class="modal-card-body">
-                      <b-field label="Nombre: ">
-                          <b-input
-                              type="text"
-                              v-model="name"
-                              placeholder="Ingrese su nombre"
-                              required>
-                          </b-input>
-                      </b-field>
-                   <b-field label="Email: ">
-                    <b-input
-                        type="email"
-                        v-model="email"
-                        placeholder="Ingrese su email"
-                        required>
-                    </b-input>
-                </b-field>
-                 <b-field label="Mensaje:">
-                    <b-input
-                        type="textarea"
-                        v-model="comments"
-                        placeholder="Contenido del mensaje"
-                        required>
-                    </b-input>
-                </b-field>
-                
-            </section>
-            <footer class="modal-card-foot">           
-                <button class="button is-primary">Enviar</button>
-            </footer>
-        </div>
-    </form>
-        </b-modal>
+             
+      
     </div>
   </div>
 
@@ -113,7 +72,6 @@ export default {
         },
     data () {
           return {                  
-                isModalActive: false,
                 name:'',
                 email:'',
                 comments:'',
