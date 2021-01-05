@@ -10,7 +10,7 @@
     "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "buefy": "^0.5.2",
     "lodash.debounce": "^4.0.8",
     "style-loader": "^0.18.2",
